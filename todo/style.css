@@ -1,0 +1,118 @@
+ul {
+  padding-left: 0px;
+  list-style-type: none;
+  text-align: center;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.add-new-task {
+  border: unset;
+  padding: 10px 5px;
+  color: violet;
+  border-radius: 12px;
+  width: 50vw;
+}
+
+.add-button {
+  background-color: cyan;
+  border: unset;
+  padding: 10px 5px;
+  color: gray;
+  border-radius: 25px;
+}
+
+ul {
+  padding: 0;
+  width: 60%;
+}
+
+li {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border: unset;
+  padding: .5em;
+  color: black;
+}
+
+.gok {
+  background-color: #FFFFE0;
+  border: 2px solid black;
+  border-radius: 50px 20px;
+}
+
+
+.fa-solid{
+  margin-right: 20px;
+}
+
+.fa-solid:hover{
+  color: red;
+}
+
+.fa-chevron-down, .fa-chevron-up{
+  margin-right: 20px;
+}
+
+.fa-trash {
+  margin-right: 10px;
+}
+
+.delete-all-button {
+  background-color: red;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 12px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.delete-all-button:hover {
+  background-color: darkred;
+}
+
+.add-due-date {
+  background-color: #B0C4DE;
+  border: unset;
+  padding: 10px 5px;
+  color: violet;
+  border-radius: 12px;
+  width: auto;
+  margin-left: 10px;
+}
+
+#doneButton {
+  background-color: #0000FF;
+  border: unset;
+  padding: 10px 5px;
+  color: gray;
+  border-radius: 25px;
+}
+
+.fa-check{
+  margin-right: 15px;
+}
+
+.fa-check:hover {
+  color: limegreen;
+}
+
+.fa-chevron-up:hover {
+  font-size: 20px;
+  color: white;
+}
+
+.fa-chevron-down:hover {
+  font-size: 20px;
+  color: white;
+}
+
+.fa-trash:hover {
+  font-size: 20px;
+  color: white;
+}
